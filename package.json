@@ -1,0 +1,22 @@
+{
+  "name": "learnwebpack",
+  "version": "1.0.0",
+  "description": "eventually, a working modern web app project",
+  "main": "main.js",
+  "dependencies": {
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:swdevbali/learnwebpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Eko Wibowo",
+  "license": "ISC"
+}
