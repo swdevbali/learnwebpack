@@ -2,4 +2,4 @@ require('./main.css');
 
 const name = 'Eko Wibowo';
 
-setTimeout(() => alert('Hello there ${name}'), 300);
+setTimeout(() => alert(`Hello there ${name}`), 300);
