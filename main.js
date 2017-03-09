@@ -1,5 +1,5 @@
-/**
- * Created by ekowibowo on 08/03/17.
- */
-console.log('Hello from WebPack');
-console.log('yooohooo');
+require('./main.css');
+
+const name = 'Eko Wibowo';
+
+setTimeout(() => alert('Hello there ${name}'), 300);

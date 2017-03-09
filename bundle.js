@@ -68,13 +68,13 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-/**
- * Created by ekowibowo on 08/03/17.
- */
-console.log('Hello from WebPack');
-console.log('yooohooo');
+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./main.css\""); e.code = 'MODULE_NOT_FOUND';; throw e; }()));
+
+const name = 'Eko Wibowo';
+
+setTimeout(() => alert('Hello there ${name}'), 300);
 
 /***/ })
 /******/ ]);
